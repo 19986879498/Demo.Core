@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Demo.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Demo.Core.Function.getJObject(System.Data.DataSet)">
+            <summary>
+            将dataset数据集转换成json对象
+            </summary>
+            <param name="ds"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

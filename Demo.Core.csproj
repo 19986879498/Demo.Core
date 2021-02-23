@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>215c7fea-3206-4879-8eed-caefc3d9ee0f</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\hujinwei\Desktop\ASP.NET练习\WebDemo\Demo.Core\Demo.Core.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Citms.EntityFrameworkCore.Oracle" Version="1.1.1"/>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="3.1.4" NoWarn="NU1605"/>
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="1.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9"/>
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="3.19.80"/>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3"/>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4"/>
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0"/>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.91"/>
+    <PackageReference Include="System.Data.OracleClient" Version="1.0.8"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1"/>
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*"/>
+    <PackageReference Include="System.ServiceModel.Http" Version="4.8.0"/>
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*"/>
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*"/>
+    <PackageReference Include="StackExchange.Redis" Version="2.2.11"/>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services"/>
+  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent"/>
+</Project>

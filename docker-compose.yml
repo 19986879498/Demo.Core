@@ -1,0 +1,30 @@
+version: '3.4'
+services:
+  service1:
+    build:
+     context: ~/hsjc
+    ports:
+     - 9001:9500/tcp
+    image: zhyy:1.0
+    command: ["dotnet", "/app/Demo.Core.dll"]
+  service2:
+    image: zhyy:1.0
+    ports:
+     - 9002:9500/tcp
+    command: ["dotnet", "/app/Demo.Core.dll"]
+  service3:
+    image: zhyy:1.0
+    ports:
+     - 9003:9500/tcp
+    command: ["dotnet", "/app/Demo.Core.dll"]
+  service4:
+    image: zhyy:1.0
+    ports:
+     - 9004:9500/tcp
+    command: ["dotnet", "/app/Demo.Core.dll"]
+  nginx:
+    image: nginx:latest
+    ports:
+     - 9500:80/tcp
+    volumes:
+     - ~/hsjc/Demo.Core/nginx.conf:/etc/nginx/conf.d/default.conf

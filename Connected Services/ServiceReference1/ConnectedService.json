@@ -1,0 +1,63 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
+  "ExtendedData": {
+    "inputs": [
+      "http://192.168.3.240:8888/SqlService.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReference1"
+    ],
+    "references": [
+      "Citms.EntityFrameworkCore.Oracle, {Citms.EntityFrameworkCore.Oracle, 1.1.1}",
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect, {Microsoft.AspNetCore.Authentication.OpenIdConnect, 3.1.4}",
+      "Microsoft.AspNetCore.JsonPatch, {Microsoft.AspNetCore.JsonPatch, 3.1.4}",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson, {Microsoft.AspNetCore.Mvc.NewtonsoftJson, 3.1.4}",
+      "Microsoft.Bcl.AsyncInterfaces, {Microsoft.Bcl.AsyncInterfaces, 1.1.1}",
+      "Microsoft.EntityFrameworkCore, {Microsoft.EntityFrameworkCore, 5.0.1}",
+      "Microsoft.EntityFrameworkCore.Abstractions, {Microsoft.EntityFrameworkCore.Abstractions, 5.0.1}",
+      "Microsoft.EntityFrameworkCore.Relational, {Microsoft.EntityFrameworkCore.Relational, 3.1.6}",
+      "Microsoft.Extensions.Caching.Abstractions, {Microsoft.Extensions.Caching.Abstractions, 5.0.0}",
+      "Microsoft.Extensions.Caching.Memory, {Microsoft.Extensions.Caching.Memory, 5.0.0}",
+      "Microsoft.Extensions.DependencyInjection, {Microsoft.Extensions.DependencyInjection, 5.0.1}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 5.0.0}",
+      "Microsoft.Extensions.Logging, {Microsoft.Extensions.Logging, 5.0.0}",
+      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 5.0.0}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 5.0.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 5.0.0}",
+      "Microsoft.IdentityModel.JsonWebTokens, {Microsoft.IdentityModel.JsonWebTokens, 5.5.0}",
+      "Microsoft.IdentityModel.Logging, {Microsoft.IdentityModel.Logging, 5.5.0}",
+      "Microsoft.IdentityModel.Protocols, {Microsoft.IdentityModel.Protocols, 5.5.0}",
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect, {Microsoft.IdentityModel.Protocols.OpenIdConnect, 5.5.0}",
+      "Microsoft.IdentityModel.Tokens, {Microsoft.IdentityModel.Tokens, 5.5.0}",
+      "Microsoft.OpenApi, {Microsoft.OpenApi, 1.2.3}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 12.0.2}",
+      "Newtonsoft.Json.Bson, {Newtonsoft.Json.Bson, 1.0.2}",
+      "Oracle.EntityFrameworkCore, {Oracle.EntityFrameworkCore, 3.19.80}",
+      "Oracle.ManagedDataAccess, {Oracle.ManagedDataAccess.Core, 2.19.91}",
+      "Swashbuckle.AspNetCore.Swagger, {Swashbuckle.AspNetCore.Swagger, 5.6.3}",
+      "Swashbuckle.AspNetCore.SwaggerGen, {Swashbuckle.AspNetCore.SwaggerGen, 5.6.3}",
+      "Swashbuckle.AspNetCore.SwaggerUI, {Swashbuckle.AspNetCore.SwaggerUI, 5.6.3}",
+      "System.Collections.Immutable, {System.Collections.Immutable, 5.0.0}",
+      "System.ComponentModel.Annotations, {System.ComponentModel.Annotations, 5.0.0}",
+      "System.Data.Common, {System.Data.Common, 4.3.0}",
+      "System.Data.OracleClient, {System.Data.OracleClient, 1.0.8}",
+      "System.Diagnostics.DiagnosticSource, {System.Diagnostics.DiagnosticSource, 5.0.0}",
+      "System.IdentityModel.Tokens.Jwt, {System.IdentityModel.Tokens.Jwt, 5.5.0}",
+      "System.IO, {System.IO, 4.3.0}",
+      "System.Runtime, {System.Runtime, 4.3.0}",
+      "System.Security.Cryptography.Cng, {System.Security.Cryptography.Cng, 4.5.0}",
+      "System.Text.Encoding, {System.Text.Encoding, 4.3.0}",
+      "System.Threading.Tasks, {System.Threading.Tasks, 4.3.0}"
+    ],
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}
